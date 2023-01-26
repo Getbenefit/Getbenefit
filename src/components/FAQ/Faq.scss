@@ -5,6 +5,10 @@
   cursor: pointer;
   font-size: 1.4rem;
   background-color: #ee42675e;
+
+  &:not(:last-child){
+    margin-bottom: 1rem;
+  }
 }
 
 .hidden {

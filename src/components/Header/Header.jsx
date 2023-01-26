@@ -10,7 +10,8 @@ const Header = () => {
       <Navigation />
       <div className="header-main">
         <div className="heading">
-          bundled benefit for the gig economy
+          bundled <span className="purple">benefit</span> for the{" "}
+          <span className="pink">gig</span> economy
           <CustomButton text="Get Benefit" />
         </div>
         <div className="header-image">
@@ -19,7 +20,7 @@ const Header = () => {
       </div>
       <div className="header-footer">
         With as little as <span className="pink">30,000 Naira</span> you get the
-        benefits of working for a big company, even if you are not...-1
+        benefits of working for a big company, even if you are not...
       </div>
     </header>
   );
