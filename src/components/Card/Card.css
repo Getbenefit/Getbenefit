@@ -1,0 +1,23 @@
+.card {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  height: 30rem;
+  width: 30%;
+  font-size: 1.4rem;
+}
+
+.card-purple {
+  background-color: rgba(84, 13, 110, 0.3843137255);
+}
+.card-purple h3 {
+  color: #540d6e;
+}
+
+.card-pink {
+  background-color: rgba(238, 66, 103, 0.368627451);
+}
+.card-pink h3 {
+  color: #ee4266;
+}/*# sourceMappingURL=Card.css.map */

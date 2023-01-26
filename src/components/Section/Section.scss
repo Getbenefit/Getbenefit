@@ -1,0 +1,16 @@
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+
+  &-heading {
+    font-size: 2rem;
+
+    span {
+      display: block;
+    }
+  }
+}

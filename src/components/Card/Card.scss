@@ -1,0 +1,23 @@
+.card {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  height: 30rem;
+  width: 30%;
+  font-size: 1.4rem;
+}
+
+.card-purple {
+  background-color: #540d6e62;
+  h3 {
+    color: #540d6e;
+  }
+}
+
+.card-pink {
+  background-color: #ee42675e;
+  h3 {
+    color: #ee4266;
+  }
+}
