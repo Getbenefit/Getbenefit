@@ -18,8 +18,8 @@ const Header = () => {
         </div>
       </div>
       <div className="header-footer">
-        With as little as <span>30,000 Naira</span> you get the benefits of
-        working for a big company, even if you are not...-1
+        With as little as <span className="pink">30,000 Naira</span> you get the
+        benefits of working for a big company, even if you are not...-1
       </div>
     </header>
   );
