@@ -1,5 +1,5 @@
 .section {
-  padding: 2rem 4rem;
+  padding: 4rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -7,11 +7,55 @@
   font-size: 1.4rem;
   margin-bottom: 1rem;
 
+  &-faqs {
+    width: 50%;
+  }
+
+  &-question {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+      background-color: #ee4266;
+      margin-top: 2rem;
+      font-size: 2rem;
+      padding: 2rem 4rem;
+    }
+  }
   &-heading {
-    font-size: 2rem;
+    font-size: 4rem;
 
     span {
       display: block;
     }
   }
+
+  h2 {
+    font-weight: 500;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+    display: block;
+    font-weight: 600;
+  }
+}
+
+.column {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(84, 13, 110, 0.04);
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.thank {
+  text-align: center;
+  font-size: 3.5rem;
+  width: 60%;
 }

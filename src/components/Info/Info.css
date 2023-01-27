@@ -1,0 +1,16 @@
+.info {
+  width: 20%;
+  height: 20rem;
+  padding: 1rem;
+}
+.info-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.2rem;
+}
+.info-text {
+  padding: 2rem 0;
+  text-align: center;
+  font-weight: 600;
+}/*# sourceMappingURL=Info.css.map */
