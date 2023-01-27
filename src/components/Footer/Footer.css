@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  padding: 2rem 4rem;
+  background-color: hsla(284deg, 79%, 24%, 0.11);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.footer-header, .footer-end {
+  display: block;
+  width: 100%;
+}
+.footer-side {
+  width: 30%;
+  align-self: flex-start;
+}
+.footer-main {
+  width: 70%;
+}
+.footer-heading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 4px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+.footer-link {
+  display: block;
+  text-transform: uppercase;
+}
+.footer-link:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer-body {
+  display: flex;
+  align-items: center;
+}
+.footer-end {
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=Footer.css.map */

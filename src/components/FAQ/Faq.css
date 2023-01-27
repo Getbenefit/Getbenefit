@@ -15,9 +15,6 @@
 .faq:not(:last-child) {
   margin-bottom: 1rem;
 }
-.faq-main {
-  width: 90%;
-}
 .faq-sub svg {
   display: block;
   width: 10rem;

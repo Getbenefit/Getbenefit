@@ -12,6 +12,7 @@ import Illust3 from "./assets/Messaging.svg";
 import Illust4 from "./assets/Groupfifty.svg";
 import Thank from "./assets/Thank.png";
 import CustomButton from "./components/CustomButton/CustomButton";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -107,6 +108,7 @@ function App() {
           />
         </div>
       </Section>
+      <Footer/>
     </>
   );
 }
