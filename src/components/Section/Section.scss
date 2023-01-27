@@ -7,8 +7,17 @@
   font-size: 1.4rem;
   margin-bottom: 1rem;
 
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
   &-faqs {
     width: 50%;
+
+    @media screen and (max-width: 750px) {
+      width: 100%;
+    }
   }
 
   &-question {
@@ -16,6 +25,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    @media screen and (max-width: 750px) {
+      width: 100%;
+    }
 
     button {
       background-color: #ee4266;
@@ -52,10 +65,19 @@
   justify-content: space-between;
   align-items: center;
   padding: 5rem 0;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    padding: 0;
+  }
 }
 
 .thank {
   text-align: center;
   font-size: 3.5rem;
   width: 60%;
+
+  @media screen and (max-width: 750px) {
+    width: 100%;
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import CustomButton from "../CustomButton/CustomButton";
 import Logo from "../../assets/logo.png";
+import { ReactComponent as Hamburger } from "../../assets/hamburger.svg";
 import "./Navigation.css";
 
 const Navigation = () => {
@@ -17,6 +18,7 @@ const Navigation = () => {
       </ul>
       <div>
         <CustomButton text="Get Benefits" />
+        <Hamburger />
       </div>
     </nav>
   );

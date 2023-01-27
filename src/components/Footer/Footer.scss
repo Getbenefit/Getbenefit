@@ -47,14 +47,29 @@
   &-body {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 750px) {
+      flex-direction: column;
+    }
   }
 
   &-end {
     text-align: center;
   }
 
-  p{
+  p {
     margin-bottom: 2rem;
   }
+}
 
+@media screen and (max-width: 750px) {
+  .footer-side,
+  .footer-end {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer{
+    padding: 2rem 0;
+  }
 }

@@ -3,6 +3,10 @@
   height: 20rem;
   padding: 1rem;
 
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+
   &-heading {
     display: flex;
     justify-content: space-between;
@@ -14,5 +18,10 @@
     padding: 2rem 0;
     text-align: center;
     font-weight: 600;
+
+    @media screen and (max-width: 750px) {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
   }
 }

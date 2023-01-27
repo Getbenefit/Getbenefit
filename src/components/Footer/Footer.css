@@ -40,9 +40,25 @@
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 750px) {
+  .footer-body {
+    flex-direction: column;
+  }
+}
 .footer-end {
   text-align: center;
 }
 .footer p {
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .footer-side,
+.footer-end {
+    width: 100%;
+    text-align: center;
+  }
+  .footer {
+    padding: 2rem 0;
+  }
 }/*# sourceMappingURL=Footer.css.map */

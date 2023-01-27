@@ -51,10 +51,25 @@ header {
   }
 }
 
-.purple {
-  color: #540d6e;
+@media screen and (max-width: 900px) {
+  .header {
+    &-image {
+      display: none !important;
+    }
+  }
+
+  .heading {
+    width: 100% !important;
+  }
 }
 
-.pink {
-  color: #ee4266;
+@media screen and (max-width: 700px) {
+  .header-footer {
+    width: 100% !important;
+    padding: 4rem;
+
+    svg {
+      display: none;
+    }
+  }
 }
