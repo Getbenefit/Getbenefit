@@ -2,6 +2,7 @@ import React from "react";
 import CustomButton from "../CustomButton/CustomButton";
 import ManPic from "../../assets/manpic.png";
 import Navigation from "../Navigation/Navigation";
+import { ReactComponent as Dart } from "../../assets/dart.svg";
 import "./Header.css";
 
 const Header = () => {
@@ -19,8 +20,13 @@ const Header = () => {
         </div>
       </div>
       <div className="header-footer">
-        With as little as <span className="pink">30,000 Naira</span> you get the
-        benefits of working for a big company, even if you are not...
+        <div>
+          <Dart />
+        </div>
+        <div>
+          With as little as <span className="pink">30,000 Naira</span> you get
+          the benefits of working for a big company, even if you are not...
+        </div>
       </div>
     </header>
   );

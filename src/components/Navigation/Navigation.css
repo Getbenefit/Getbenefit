@@ -3,11 +3,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5rem;
+  padding: 0 4rem;
 }
 
 .header-logo {
-  width: 20%;
   display: inline-block;
 }
 .header-links {
@@ -20,14 +19,9 @@ nav {
 .header-link {
   display: inline-block;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
-.header-footer {
-  display: block;
-  width: 50%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header-link:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=Navigation.css.map */

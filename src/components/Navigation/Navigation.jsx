@@ -11,9 +11,9 @@ const Navigation = () => {
       </div>
       <ul className="header-links">
         <li className="header-link purple">Home</li>
-        <li className="header-link purple">About us </li>
-        <li className="header-link purple">Benefits</li>
-        <li className="header-link purple">Contact</li>
+        <li className="header-link purple">Offers</li>
+        <li className="header-link purple">Why GetBenefits</li>
+        <li className="header-link purple">FAQs</li>
       </ul>
       <div>
         <CustomButton text="Get Benefits" />

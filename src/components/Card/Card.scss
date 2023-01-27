@@ -3,20 +3,38 @@
   display: flex;
   flex-direction: column;
   padding: 2rem 2rem;
-  height: 30rem;
-  width: 30%;
-  font-size: 1.4rem;
+  height: 40rem;
+  width: 45%;
+  font-size: 2rem;
+  position: relative;
+
+  h3 {
+    text-transform: uppercase;
+    padding: 3rem 0;
+  }
+
+  img {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  &::after {
+    content: url("../../assets/arrows.svg");
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .card-purple {
-  background-color: #540d6e62;
+  background-color: rgba(84, 13, 110, 0.04);
   h3 {
     color: #540d6e;
   }
 }
 
 .card-pink {
-  background-color: #ee42675e;
+  background-color: rgba(238, 66, 102, 0.04);
   h3 {
     color: #ee4266;
   }
