@@ -13,6 +13,7 @@ import Illust4 from "./assets/Groupfifty.svg";
 import Thank from "./assets/Thank.png";
 import CustomButton from "./components/CustomButton/CustomButton";
 import Footer from "./components/Footer/Footer";
+import Mansready from "./assets/mansready.png";
 
 function App() {
   return (
@@ -75,6 +76,25 @@ function App() {
       </Section>
 
       <Section>
+        <div className="why">
+          <div className="why-text">
+            <h4 className="why-heading">Why Getbenefit?</h4>
+            <ul className="why-links">
+              <li className="why-link">Access benefits in a single bundle</li>
+              <li className="why-link">Flexible benefit plans</li>
+              <li className="why-link">Secure and Compliant</li>
+              <li className="why-link">Pay-as-you go</li>
+              <li className="why-link">24/7 Live Support</li>
+              <li className="why-link">Zero Paper work</li>
+            </ul>
+          </div>
+          <div className="why-image">
+            <img src={Mansready} alt="Man is ready" />
+          </div>
+        </div>
+      </Section>
+
+      <Section>
         <div className="section-question">
           <h3 className="section-heading">
             Have More <span className="purple">Questions?</span>
@@ -108,7 +128,7 @@ function App() {
           />
         </div>
       </Section>
-      <Footer/>
+      <Footer />
     </>
   );
 }

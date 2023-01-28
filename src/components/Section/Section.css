@@ -83,4 +83,90 @@
   .thank {
     width: 100%;
   }
+}
+
+.why {
+  width: 100%;
+  background-color: #f3fcf0;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 5rem 0 5rem 10rem;
+  border-radius: 10% 0 0 10%;
+}
+@media screen and (max-width: 700px) {
+  .why {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 5rem;
+  }
+}
+.why::before, .why::after {
+  position: absolute;
+  content: url("../../assets/arrows.svg");
+  left: 0;
+}
+.why::before {
+  top: 0;
+}
+.why::after {
+  bottom: 0;
+}
+.why-text {
+  width: 50%;
+  z-index: 1;
+}
+@media screen and (max-width: 700px) {
+  .why-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+.why-heading {
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
+  background-color: #540d6e;
+  padding: 1rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 700px) {
+  .why-heading {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
+.why-links {
+  list-style: none;
+}
+.why-link {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.why-link::before {
+  height: 2rem;
+  font-size: 1rem;
+}
+.why-link:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.why-image {
+  display: inline-block;
+  height: 40rem;
+  width: 40rem;
+  transform: translateY(-30%);
+  z-index: 1;
+}
+@media screen and (max-width: 700px) {
+  .why-image {
+    transform: translateY(0);
+    width: 100%;
+  }
+}
+.why-image img {
+  width: 100%;
 }/*# sourceMappingURL=Section.css.map */
