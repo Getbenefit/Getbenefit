@@ -21,6 +21,9 @@
     width: 100%;
   }
 }
+.section-thank {
+  width: 100%;
+}
 .section-question {
   width: 50%;
   display: flex;

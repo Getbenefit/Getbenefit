@@ -6,7 +6,7 @@ nav {
   padding: 0 4rem;
 
   @media screen and (max-width: 650px) {
-    padding: 0;
+    padding: 1rem;
   }
 
   div button {
@@ -21,6 +21,7 @@ nav {
     @media screen and (max-width: 650px) {
       display: block;
       height: 5rem;
+      width: 5rem;
       cursor: pointer;
       align-self: flex-start;
     }

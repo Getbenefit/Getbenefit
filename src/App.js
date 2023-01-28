@@ -66,7 +66,7 @@ function App() {
 
       <Section>
         <div>
-          <img src={Thank} alt="Thank" />
+          <img src={Thank} alt="Thank" className="section-thank" />
         </div>
         <div className="thank">
           Spend more time being more productive, save more and get the most
