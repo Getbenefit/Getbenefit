@@ -56,5 +56,36 @@
     display: block;
     font-weight: 600;
   }
+
+  div {
+    height: 45rem;
+    width: 40%;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
+
+    p {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
 }
 
+.thank {
+  text-align: center;
+  font-size: 3.5rem;
+  width: 60%;
+
+  @media screen and (max-width: 750px) {
+    width: 100%;
+  }
+}
