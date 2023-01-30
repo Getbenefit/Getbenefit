@@ -3,7 +3,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 4rem;
+  padding: 1rem 4rem;
 
   @media screen and (max-width: 650px) {
     padding: 1rem;
@@ -12,18 +12,6 @@ nav {
   div button {
     @media screen and (max-width: 650px) {
       display: none !important;
-    }
-  }
-
-  div svg {
-    display: none;
-
-    @media screen and (max-width: 650px) {
-      display: block;
-      height: 5rem;
-      width: 5rem;
-      cursor: pointer;
-      align-self: flex-start;
     }
   }
 }
@@ -54,5 +42,17 @@ nav {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+.hamburger {
+  display: none;
+
+  @media screen and (max-width: 650px) {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    align-self: flex-start;
   }
 }

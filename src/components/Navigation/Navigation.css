@@ -3,7 +3,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 4rem;
+  padding: 1rem 4rem;
 }
 @media screen and (max-width: 650px) {
   nav {
@@ -13,18 +13,6 @@ nav {
 @media screen and (max-width: 650px) {
   nav div button {
     display: none !important;
-  }
-}
-nav div svg {
-  display: none;
-}
-@media screen and (max-width: 650px) {
-  nav div svg {
-    display: block;
-    height: 5rem;
-    width: 5rem;
-    cursor: pointer;
-    align-self: flex-start;
   }
 }
 
@@ -51,4 +39,17 @@ nav div svg {
 }
 .header-link:hover {
   text-decoration: underline;
+}
+
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .hamburger {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    cursor: pointer;
+    align-self: flex-start;
+  }
 }/*# sourceMappingURL=Navigation.css.map */

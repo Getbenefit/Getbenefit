@@ -1,6 +1,6 @@
 import React from "react";
 import CustomButton from "../CustomButton/CustomButton";
-import Logo from "../../assets/logo.png";
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { ReactComponent as Hamburger } from "../../assets/hamburger.svg";
 import "./Navigation.css";
 
@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <nav>
       <div className="header-logo">
-        <img src={Logo} alt="Getbenefit logo" />
+        <Logo />
       </div>
       <ul className="header-links">
         <li className="header-link purple">Home</li>
@@ -18,7 +18,9 @@ const Navigation = () => {
       </ul>
       <div>
         <CustomButton text="Get Benefits" />
-        <Hamburger />
+        <div className="hamburger">
+          <Hamburger />
+        </div>
       </div>
     </nav>
   );
