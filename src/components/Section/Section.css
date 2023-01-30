@@ -84,6 +84,11 @@
   align-items: center;
   margin: 0 auto;
 }
+@media screen and (max-width: 500px) {
+  .section-tags {
+    width: 100%;
+  }
+}
 
 .thank {
   text-align: center;
