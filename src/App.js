@@ -5,6 +5,13 @@ import People from "./assets/people.png";
 import Boy from "./assets/boy.png";
 import Thank from "./assets/Thank.png";
 import CustomButton from "./components/CustomButton/CustomButton";
+import Tags from "./components/Tags/Tags";
+import Broadband from "./assets/broadband.png";
+import Health from "./assets/health.png";
+import Education from "./assets/educat.png";
+import Wallet from "./assets/wallet.png";
+import Chair from "./assets/chair.png";
+import Vacation from "./assets/vacate.png";
 
 const App = () => {
   return (
@@ -38,6 +45,15 @@ const App = () => {
         <div>
           <img src={Boy} alt="People standing" />
         </div>
+      </Section>
+
+      <Section className="section-tags">
+        <Tags image={Broadband} text="Broadband" />
+        <Tags image={Health} text="Health" />
+        <Tags image={Education} text="Education" />
+        <Tags image={Wallet} text="401(k)" />
+        <Tags image={Chair} text="Co-working Space" />
+        <Tags image={Vacation} text="Vacation" />
       </Section>
       <Section>
         <div>

@@ -52,4 +52,8 @@ nav {
     cursor: pointer;
     align-self: flex-start;
   }
+  .hamburger svg {
+    height: 100%;
+    width: 100%;
+  }
 }/*# sourceMappingURL=Navigation.css.map */

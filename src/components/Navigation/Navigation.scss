@@ -54,5 +54,10 @@ nav {
     width: 5rem;
     cursor: pointer;
     align-self: flex-start;
+
+    svg {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
