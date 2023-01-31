@@ -3,7 +3,7 @@ import Header from "./components/Header/Header";
 import Section from "./components/Section/Section";
 import People from "./assets/people.png";
 import Boy from "./assets/boy.png";
-import Thank from "./assets/Thank.png";
+import Spend from "./assets/spend.png";
 import CustomButton from "./components/CustomButton/CustomButton";
 import Tags from "./components/Tags/Tags";
 import Broadband from "./assets/broadband.png";
@@ -12,6 +12,13 @@ import Education from "./assets/educat.png";
 import Wallet from "./assets/wallet.png";
 import Chair from "./assets/chair.png";
 import Vacation from "./assets/vacate.png";
+import Illust1 from "./assets/Frame.svg";
+import Illust2 from "./assets/Layer.svg";
+import Illust3 from "./assets/Messaging.svg";
+import Illust4 from "./assets/Groupfifty.svg";
+import Info from "./components/Info/Info";
+import { ReactComponent as Check } from "./assets/check-box.svg";
+import ManReady from "./assets/mansready.png";
 
 const App = () => {
   return (
@@ -48,20 +55,102 @@ const App = () => {
       </Section>
 
       <Section className="section-tags">
-        <Tags image={Broadband} text="Broadband" />
-        <Tags image={Health} text="Health" />
-        <Tags image={Education} text="Education" />
-        <Tags image={Wallet} text="401(k)" />
-        <Tags image={Chair} text="Co-working Space" />
-        <Tags image={Vacation} text="Vacation" />
+        <Tags
+          image={Broadband}
+          heading="Broadband"
+          text="Helping employees and freelancers access cost-efficient data plans, allowing them stay connected and productive."
+        />
+        <Tags
+          image={Health}
+          heading="Health"
+          text="Partnering with HMOs and other healthcare providers to offer comprehensive healthcare coverage to employees."
+        />
+        <Tags
+          image={Education}
+          heading="Education"
+          text="Providing employees and freelancers with opportunities to further their education and skills development, helping them stay competitive in the workplace."
+        />
+        <Tags
+          image={Wallet}
+          heading="401(k)"
+          text="Helping employees secure their financial future by offering access to top pension managers and 401k plans."
+        />
+        <Tags
+          image={Chair}
+          heading="Co-working Space"
+          text="Partnering with co-working spaces to offer employees and freelancers access to productive and collaborative workspaces."
+        />
+        <Tags
+          image={Vacation}
+          heading="Vacation"
+          text="Providing employees and freelancers with opportunities to further their education and skills development, helping them stay competitive in the workplace."
+        />
+      </Section>
+      <Section className="no-flex">
+        <h2 className="purple">How It Works</h2>
+        <div className="information">
+          <Info
+            image={Illust1}
+            heading="Onboard"
+            text="Sign up to get benefit and crate an account"
+          />
+          <Info
+            image={Illust2}
+            heading="Get Plans"
+            text="Browse our selection of comprehensive benefits options and select the ones that are right for you"
+          />
+          <Info
+            image={Illust3}
+            heading="Get Advice"
+            text="You can chose to speak with a representative who will advice you based on what plans or bundles you can opt for."
+          />
+          <Info
+            image={Illust4}
+            heading="Get Benefits"
+            text="You make payment and start using your getbeneft voucher whenever you need to."
+          />
+        </div>
       </Section>
       <Section>
         <div>
-          <img src={Thank} alt="Thank" className="section-thank" />
+          <img src={Spend} alt="Thank" className="section-thank" />
         </div>
         <div className="thank">
-          Spend more time being more productive, save more and get the most
-          benefits out of life.
+          "Spend more time being more productive, save more and get the most
+          benefits out of life."
+        </div>
+      </Section>
+      <Section>
+        <div className="why">
+          <h3 className="why-heading">Why Get Benefit?</h3>
+          <ul className="why-links">
+            <li className="why-link">
+              <Check /> Access Benefit in a single bundle
+            </li>
+            <li className="why-link">
+              <Check />
+              Flexible Benefits Plans
+            </li>
+            <li className="why-link">
+              <Check />
+              Secure and Compliance
+            </li>
+            <li className="why-link">
+              <Check />
+              Pay-as-you go
+            </li>
+            <li className="why-link">
+              <Check />
+              24/7 Support
+            </li>
+            <li className="why-link">
+              <Check />
+              Zero paper work
+            </li>
+          </ul>
+        </div>
+        <div className="why-image">
+          <img src={ManReady} alt="Man relaxed"/>
         </div>
       </Section>
     </>

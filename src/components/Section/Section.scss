@@ -9,7 +9,6 @@
 
   @media screen and (max-width: 750px) {
     flex-direction: column;
-    gap: 5rem;
   }
 
   &-faqs {
@@ -61,7 +60,7 @@
     width: 40%;
 
     @media screen and (max-width: 750px) {
-      width: 100%;
+      width: 100% !important;
     }
 
     img {
@@ -83,12 +82,12 @@
   }
 
   &-tags {
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    gap: 4rem;
 
     @media screen and (max-width: 500px) {
       width: 100%;
@@ -97,11 +96,71 @@
 }
 
 .thank {
-  text-align: center;
   font-size: 3.5rem;
-  width: 60%;
+  width: 50% !important;
+  letter-spacing: 5px;
 
   @media screen and (max-width: 750px) {
     width: 100%;
+  }
+}
+
+.information {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  @media screen and (max-width: 900px) {
+    flex-wrap: wrap;
+  }
+}
+
+.no-flex {
+  display: block !important;
+}
+
+.why {
+  width: 50% !important;
+  height: inherit;
+  background-color: #8c36ac;
+  padding: 4rem 2rem;
+
+  &-heading {
+    width: 45%;
+    color: #8c36ac;
+    background-color: white;
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-radius: 20px 0 0 20px;
+    margin-bottom: 3rem;
+  }
+
+  &-links {
+    list-style: none;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+
+    svg {
+      width: 10%;
+      fill: white;
+      height: 4rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-image {
+    width: 50% !important;
+    height: 100%;
   }
 }
