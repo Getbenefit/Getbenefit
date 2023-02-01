@@ -27,4 +27,9 @@
 }
 .tag:nth-child(3), .tag:nth-child(5) {
   background-color: #fff0f4;
+}
+@media screen and (max-width: 400px) {
+  .tag {
+    width: auto;
+  }
 }/*# sourceMappingURL=Tags.css.map */

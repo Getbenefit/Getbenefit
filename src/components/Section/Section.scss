@@ -122,7 +122,6 @@
 
 .why {
   width: 50% !important;
-  height: inherit;
   background-color: #8c36ac;
   padding: 4rem 2rem;
 
@@ -135,6 +134,10 @@
     font-weight: 600;
     border-radius: 20px 0 0 20px;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 500px) {
+      width: 90%;
+    }
   }
 
   &-links {
@@ -163,4 +166,46 @@
     width: 50% !important;
     height: 100%;
   }
+}
+
+.faq {
+  &-sub {
+    width: 55% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      color: white;
+      background-color: #ff73cb;
+      font-weight: 600;
+    }
+  }
+
+  &-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    width: 100% !important;
+  }
+
+  &-faq {
+    width: 45% !important;
+  }
+
+  &-image {
+    width: 70% !important;
+  }
+}
+
+.gap {
+  gap: 5rem;
 }

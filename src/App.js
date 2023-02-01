@@ -19,6 +19,9 @@ import Illust4 from "./assets/Groupfifty.svg";
 import Info from "./components/Info/Info";
 import { ReactComponent as Check } from "./assets/check-box.svg";
 import ManReady from "./assets/mansready.png";
+import Market from "./assets/market.png";
+import Faq from "./components/FAQ/Faq";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -111,7 +114,7 @@ const App = () => {
           />
         </div>
       </Section>
-      <Section>
+      <Section className="gap">
         <div>
           <img src={Spend} alt="Thank" className="section-thank" />
         </div>
@@ -150,9 +153,43 @@ const App = () => {
           </ul>
         </div>
         <div className="why-image">
-          <img src={ManReady} alt="Man relaxed"/>
+          <img src={ManReady} alt="Man relaxed" />
         </div>
       </Section>
+      <Section className="gap tablet">
+        <div className="faq-sub">
+          <img
+            src={Market}
+            alt="digital Marketing Illustration"
+            className="faq-image"
+          />
+          <div className="faq-text">
+            <div className="faq-heading">Have more Questions?</div>
+            <CustomButton text="Contact Us" />
+          </div>
+        </div>
+        <div className="faq-faq">
+          <Faq
+            question="What Benefits does GetBenefit offers?"
+            answer="WELCOME"
+          />
+          <Faq
+            question="How much does it cost to use get benefits?"
+            answer="WELCOME"
+          />
+          <Faq question="Can I Customize my benefits plans?" answer="WELCOME" />
+          <Faq question="What do I do when I am confused?" answer="WELCOME" />
+          <Faq
+            question="Does GetBenefit offers 24/7 support?"
+            answer="WELCOME"
+          />
+          <Faq
+            question="Is GetBenefit available in all locations?"
+            answer="WELCOME"
+          />
+        </div>
+      </Section>
+      <Footer />
     </>
   );
 };

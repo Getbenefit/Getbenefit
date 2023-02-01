@@ -118,7 +118,6 @@
 
 .why {
   width: 50% !important;
-  height: inherit;
   background-color: #8c36ac;
   padding: 4rem 2rem;
 }
@@ -131,6 +130,11 @@
   font-weight: 600;
   border-radius: 20px 0 0 20px;
   margin-bottom: 3rem;
+}
+@media screen and (max-width: 500px) {
+  .why-heading {
+    width: 90%;
+  }
 }
 .why-links {
   list-style: none;
@@ -153,4 +157,39 @@
 .why-image {
   width: 50% !important;
   height: 100%;
+}
+
+.faq-sub {
+  width: 55% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq-text button {
+  color: white;
+  background-color: #ff73cb;
+  font-weight: 600;
+}
+.faq-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  width: 100% !important;
+}
+.faq-faq {
+  width: 45% !important;
+}
+.faq-image {
+  width: 70% !important;
+}
+
+.gap {
+  gap: 5rem;
 }/*# sourceMappingURL=Section.css.map */

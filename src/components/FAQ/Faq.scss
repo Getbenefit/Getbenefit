@@ -3,14 +3,12 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
-  width: 100%;
+  width: 100% !important;
   padding: 2rem;
   cursor: pointer;
-  font-size: 1.4rem;
-  background-color: #540d6e1c;
-  font-size: 1.8rem;
-  font-weight: bold;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
+  color: #540d6e;
+  font-weight: 600;
 
   &:not(:last-child) {
     margin-bottom: 1rem;
@@ -27,10 +25,29 @@
   &-body {
     margin-top: 3rem;
   }
+
+  &-main {
+    width: 90% !important;
+
+    div {
+      width: 100% !important;
+    }
+  }
 }
 
 .hidden {
   display: none;
   opacity: 0;
   transition: all ease 0.3s;
+}
+
+.tablet {
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+    gap: 0;
+
+    div {
+      width: 100% !important;
+    }
+  }
 }

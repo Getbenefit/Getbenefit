@@ -35,4 +35,8 @@
   &:nth-child(5) {
     background-color: #fff0f4;
   }
+
+  @media screen and (max-width: 400px) {
+    width: auto;
+  }
 }
