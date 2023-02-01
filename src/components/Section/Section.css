@@ -5,7 +5,6 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
-  margin-bottom: 1rem;
 }
 @media screen and (max-width: 750px) {
   .section {
@@ -118,6 +117,7 @@
 
 .why {
   width: 50% !important;
+  height: 100%;
   background-color: #8c36ac;
   padding: 4rem 2rem;
 }
@@ -155,8 +155,8 @@
   margin-bottom: 2rem;
 }
 .why-image {
-  width: 50% !important;
   height: 100%;
+  width: 50% !important;
 }
 
 .faq-sub {
@@ -192,4 +192,8 @@
 
 .gap {
   gap: 5rem;
+}
+
+.height {
+  height: 55rem;
 }/*# sourceMappingURL=Section.css.map */

@@ -124,7 +124,7 @@ const App = () => {
         </div>
       </Section>
       <Section>
-        <div className="why">
+        <div className="why height">
           <h3 className="why-heading">Why Get Benefit?</h3>
           <ul className="why-links">
             <li className="why-link">
