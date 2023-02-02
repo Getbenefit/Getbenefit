@@ -27,7 +27,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Section>
+      <Section className="w40">
         <div>
           <img src={People} alt="People standing" />
         </div>
@@ -41,7 +41,7 @@ const App = () => {
           <CustomButton text="Get Benefit" />
         </div>
       </Section>
-      <Section>
+      <Section className="w40">
         <div className="section-text">
           <h2 className="purple">
             Get Benefit for Remote Workers and Freelancers

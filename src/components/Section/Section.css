@@ -52,12 +52,9 @@
   display: block;
   font-weight: 600;
 }
-.section div {
-  width: 40%;
-}
 @media screen and (max-width: 750px) {
   .section div {
-    width: 100% !important;
+    width: 100%;
   }
 }
 .section div img {
@@ -68,11 +65,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 5rem;
 }
 .section-text p {
   font-size: 2rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 .section-tags {
   display: flex;
@@ -90,7 +87,7 @@
 
 .thank {
   font-size: 3.5rem;
-  width: 50% !important;
+  width: 50%;
   letter-spacing: 5px;
 }
 @media screen and (max-width: 750px) {
@@ -100,29 +97,31 @@
 }
 
 .information {
-  width: 100% !important;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 @media screen and (max-width: 900px) {
   .information {
+    width: 100%;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 
 .no-flex {
-  display: block !important;
+  display: block;
 }
 
 .why {
-  width: 50% !important;
+  width: 50%;
   height: 100%;
   background-color: #8c36ac;
   padding: 4rem 2rem;
 }
 .why-heading {
-  width: 45%;
+  width: 75%;
   color: #8c36ac;
   background-color: white;
   padding: 1rem;
@@ -156,11 +155,11 @@
 }
 .why-image {
   height: 100%;
-  width: 50% !important;
+  width: 50%;
 }
 
 .faq-sub {
-  width: 55% !important;
+  width: 55%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,13 +180,13 @@
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 2rem;
-  width: 100% !important;
+  width: 100%;
 }
 .faq-faq {
-  width: 45% !important;
+  width: 45%;
 }
 .faq-image {
-  width: 70% !important;
+  width: 70%;
 }
 
 .gap {
@@ -196,4 +195,20 @@
 
 .height {
   height: 55rem;
+}
+
+.w40 div {
+  width: 40%;
+}
+@media screen and (max-width: 750px) {
+  .w40 div {
+    width: 100%;
+    gap: 2rem;
+  }
+  .w40 div img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=Section.css.map */
