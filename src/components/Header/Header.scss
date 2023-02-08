@@ -4,11 +4,24 @@ header {
 }
 
 .header-main {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 6rem 4rem;
   height: 70%;
+
+  div {
+    width: 50%;
+
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
+
+    img {
+      height: 40rem;
+    }
+  }
 
   &__text {
     width: 50%;
@@ -29,6 +42,7 @@ header {
   }
 
   &__image {
+    width: 100%;
     @media screen and (max-width: 900px) {
       display: none;
     }

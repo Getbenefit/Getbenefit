@@ -86,7 +86,7 @@
 }
 
 .thank {
-  font-size: 3.5rem;
+  font-size: 3rem;
   width: 50%;
   letter-spacing: 5px;
 }
@@ -100,7 +100,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 2rem;
 }
 @media screen and (max-width: 900px) {
   .information {
