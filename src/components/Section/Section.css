@@ -117,7 +117,7 @@
 
 .why {
   width: 50%;
-  height: 100%;
+  height: 576px;
   background-color: #8c36ac;
   padding: 4rem 2rem;
 }
@@ -155,7 +155,7 @@
   margin-bottom: 2rem;
 }
 .why-image {
-  height: 100%;
+  height: 576px;
   width: 50%;
 }
 
