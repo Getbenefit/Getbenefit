@@ -55,7 +55,6 @@ const Footer = () => {
           Getbenefit.ng &copy; {new Date().getFullYear()}. ALL RIGHTS RESERVED
         </div>
         <div>
-
           </div>
       </div>
     </footer>
