@@ -1,5 +1,5 @@
 import React from "react";
-//import { ReactComponent as Social } from "../../assets/Groupthirty.svg";
+import { ReactComponent as Social } from "../../assets/Groupthirty.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import "./Footer.css";
 
@@ -54,7 +54,7 @@ const Footer = () => {
         <div>
           Getbenefit.ng &copy; {new Date().getFullYear()}. ALL RIGHTS RESERVED
         </div>
-        
+        <Social />
       </div>
     </footer>
   );
