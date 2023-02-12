@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
 .footer {
   width: 100%;
   padding: 2rem 4rem;
@@ -42,7 +45,10 @@
 }
 .footer-link {
   display: block;
-  text-transform: capitalize;
+  font-family: 'Matter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
 }
 .footer-link:not(:last-child) {
   margin-bottom: 1rem;
