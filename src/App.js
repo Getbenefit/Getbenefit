@@ -136,7 +136,7 @@ const App = () => {
             </li>
             <li className="why-link">
               <Check />
-              Secure and Compliance
+              Secure and Compliant
             </li>
             <li className="why-link">
               <Check />

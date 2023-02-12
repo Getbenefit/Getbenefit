@@ -31,20 +31,20 @@ const Footer = () => {
           <div>
             <h6 className="footer-heading__2">Company</h6>
             <ul className="footer-links">
-              <li className="footer-link">Contact Us</li>
-              <li className="footer-link">Privacy Policy</li>
-              <li className="footer-link">Terms and Conditions</li>
+              <li className="footer-link"><a>Contact Us</a></li>
+              <li className="footer-link"><a>Privacy Policy</a></li>
+              <li className="footer-link"><a>Terms and Conditions</a></li>
             </ul>
           </div>
           <div>
             <h6 className="footer-heading__2">Customer Support</h6>
-            <p>support@getbenefit.io</p>
+            <p>support@getbenefit.ng</p>
           </div>
           <div>
             <h6 className="footer-heading__2">Contact</h6>
             <ul className="footer-links">
               <li className="footer-link">Lagos, Nigeria</li>
-              <li className="footer-link">info@getbenefit.io</li>
+              <li className="footer-link">info@getbenefit.ng</li>
               <li className="footer-link">+234 8148 401 699</li>
             </ul>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className="footer-end">
         <div>
-          Getbenefit.io &copy; {new Date().getFullYear()}. ALL RIGHTS RESERVED
+          Getbenefit.ng &copy; {new Date().getFullYear()}. ALL RIGHTS RESERVED
         </div>
         <Social />
       </div>
