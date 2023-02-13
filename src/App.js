@@ -34,7 +34,7 @@ const App = () => {
         <div className="section-text">
           <h2 className="purple">Get Benefit for Startup and Teams</h2>
           <p>
-          As an employer you know how benefits helps retain top talents Whilenavigating the 
+          As an employer, you know how benefits helps retain top talents. While navigating the 
           complex world of benefits can be a daunting task, Getbenefit empowers you to offer 
           a comprehensive range of benefits to your employees, from health insurance to retirement
           plans, simplifying the process and giving your team the edge they need to succeed.
