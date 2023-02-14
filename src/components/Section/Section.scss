@@ -85,7 +85,7 @@
     margin: 0 auto;
     gap: 4rem;
     padding-inline: 2em;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width:500px) {
       width: 100%;
       display: grid;
       grid-template-columns: repeat(8,1fr);
@@ -93,14 +93,10 @@
       img{
         width: 30px;
       }
-      :nth-child(1),
-      :nth-child(3),
-      :nth-child(5){
+      :nth-child(odd){
         grid-column: 1/5;
       }
-      :nth-child(2),
-      :nth-child(4),
-      :nth-child(6){
+      :nth-child(even){
         grid-column: 5/9;
       }
     }
@@ -123,11 +119,20 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-
   @media screen and (max-width: 900px) {
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+  @media screen and (max-width: 500px) {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    :nth-child(odd){
+      grid-column: 1/5;
+    }
+    :nth-child(even){
+      grid-column: 5/9;
+    }
   }
 }
 
