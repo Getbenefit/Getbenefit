@@ -42,6 +42,7 @@ const App = () => {
           <CustomButton text="Get Benefit" />
         </div>
       </Section>
+
       <Section className="w40">
         <div className="section-text">
           <h2 className="purple">
@@ -98,6 +99,7 @@ const App = () => {
           development, helping them stay competitive in the workplace."
         />
       </Section>
+
       <Section className="no-flex">
         <h2 className="purple">How It Works</h2>
         <div className="information">
@@ -124,6 +126,7 @@ const App = () => {
           />
         </div>
       </Section>
+
       <Section className="gap">
         <div>
           <img src={Spend} alt="Thank" className="section-thank" />
@@ -134,6 +137,7 @@ const App = () => {
           making it easy to find and manage the benefits you need to thrive."
         </div>
       </Section>
+
       <Section>
         <div className="why height">
           <h3 className="why-heading">Why Get Benefit?</h3>
@@ -167,6 +171,8 @@ const App = () => {
           <img src={ManReady} alt="Man relaxed" />
         </div>
       </Section>
+
+
       <Section className="gap tablet">
         <div className="faq-sub">
           <img
@@ -212,6 +218,7 @@ const App = () => {
           />
         </div>
       </Section>
+
       <Footer />
     </>
   );

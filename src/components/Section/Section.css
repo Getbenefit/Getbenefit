@@ -78,10 +78,26 @@
   align-items: center;
   margin: 0 auto;
   gap: 4rem;
+  padding-inline: 2em;
 }
 @media screen and (max-width: 500px) {
   .section-tags {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .section-tags img {
+    width: 30px;
+  }
+  .section-tags :nth-child(1),
+  .section-tags :nth-child(3),
+  .section-tags :nth-child(5) {
+    grid-column: 1/5;
+  }
+  .section-tags :nth-child(2),
+  .section-tags :nth-child(4),
+  .section-tags :nth-child(6) {
+    grid-column: 5/9;
   }
 }
 
@@ -155,7 +171,7 @@
   margin-bottom: 2rem;
 }
 .why-image {
-  height: 576px;
+  height: 100%;
   width: 50%;
 }
 
@@ -195,7 +211,7 @@
 }
 
 .height {
-  height: 576px;
+  height: 55rem;
 }
 
 .w40 div {
