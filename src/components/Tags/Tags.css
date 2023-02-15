@@ -5,8 +5,7 @@
   flex-direction: column;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   padding: 2rem 4rem;
-  height: 30rem;
-  width: 35rem;
+  max-width: 35rem;
   border-radius: 20px;
   gap: 1rem;
 }
@@ -28,8 +27,15 @@
 .tag:nth-child(3), .tag:nth-child(5) {
   background-color: #fff0f4;
 }
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 500px) {
   .tag {
-    width: auto;
+    padding: 2em 1em;
+  }
+  .tag h3 {
+    font-size: 16px;
+  }
+  .tag p {
+    font-size: 8px;
   }
 }/*# sourceMappingURL=Tags.css.map */
