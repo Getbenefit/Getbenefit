@@ -132,9 +132,9 @@ const App = () => {
           <img src={Spend} alt="Thank" className="section-thank" />
         </div>
         <div className="thank">
-          "Whether you're an employer looking to offer competitive benefits or an independent worker 
+         <p>"Whether you're an employer looking to offer competitive benefits or an independent worker 
           looking to access them, Getbenefit simplifies the process, 
-          making it easy to find and manage the benefits you need to thrive."
+          making it easy to find and manage the benefits you need to thrive."</p> 
         </div>
       </Section>
 

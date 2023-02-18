@@ -98,9 +98,10 @@
 }
 
 .thank {
-  font-size: 3rem;
+  font-size: 30px;
   width: 50%;
   letter-spacing: 5px;
+
 }
 @media screen and (max-width: 750px) {
   .thank {
