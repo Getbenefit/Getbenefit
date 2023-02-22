@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+  import React, { useState } from "react";
 import "./Faq.css";
 import { ReactComponent as Up } from "../../assets/up.svg";
 import { ReactComponent as Down } from "../../assets/down.svg";

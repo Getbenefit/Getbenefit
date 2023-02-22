@@ -9,7 +9,6 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 6rem 4rem;
-  height: 70%;
 }
 .header-main div {
   width: 50%;
@@ -42,12 +41,6 @@ header {
 .header-main__image {
   width: 100%;
 }
-@media screen and (max-width: 900px) {
-  .header-main__image {
-    display: none;
-  }
-}
-
 .header-footer {
   width: 100%;
   background-color: #8c36ac;
@@ -58,17 +51,43 @@ header {
   font-weight: 500;
 }
 .header-footer div {
-  width: 40%;
   display: block;
   margin: 0 auto;
-}
-@media screen and (max-width: 800px) {
-  .header-footer div {
-    width: 70%;
-  }
 }
 .header-footer span {
   font-size: 2.4rem;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-main {
+    flex-direction: column;
+    padding: 16px 18px;
+    margin: 0;
+  }
+  .header-main-heading {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 0.01em;
+  }
+  .header-main .pink {
+    display: block;
+  }
+  .header-main__image {
+    margin-top: 24px;
+  }
+  .header-main .header-main__image img {
+    width: 100%;
+    height: auto;
+  }
+  .header-footer div {
+    width: 85%;
+    font-weight: 600;
+    padding-block: 0.5em;
+    font-size: 10.6px;
+    line-height: 12px;
+  }
 }/*# sourceMappingURL=Header.css.map */

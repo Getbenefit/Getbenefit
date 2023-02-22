@@ -4,14 +4,20 @@
   align-items: center;
   border-radius: 5px;
   width: 100%;
-  padding: 2rem;
   cursor: pointer;
   font-size: 1.5rem;
   color: #540d6e;
   font-weight: 600;
+  margin-top: 1em;
+}
+.faq-main{
+ 
 }
 .faq:not(:last-child) {
   margin-bottom: 1rem;
+}
+.faq-head{
+  width: 500px;
 }
 @media screen and (max-width: 550px) {
   .faq-sub {
@@ -25,14 +31,14 @@
 }
 .faq-body {
   margin-top: 3rem;
-  color: #1F271B;
 }
-.faq-main {
+/* .faq-main {
   width: 90%;
-}
-.faq-main div {
   width: 100%;
-}
+} */
+/* .faq-main div {
+  width: 100%;
+} */
 
 .hidden {
   display: none;

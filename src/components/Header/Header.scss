@@ -9,7 +9,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 6rem 4rem;
-  height: 70%;
+  // height: 70%;
 
   div {
     width: 50%;
@@ -17,8 +17,7 @@ header {
     @media screen and (max-width: 900px) {
       width: 100%;
     }
-
-    img {
+   img {
       height: 40rem;
     }
   }
@@ -44,7 +43,7 @@ header {
   &__image {
     width: 100%;
     @media screen and (max-width: 900px) {
-      display: none;
+      // display: none;
     }
   }
 }
@@ -57,14 +56,13 @@ header {
   padding: 2rem 0;
   font-size: 1.8rem;
   font-weight: 500;
-
   div {
-    width: 40%;
+    // width: 40%;
     display: block;
     margin: 0 auto;
 
     @media screen and (max-width: 800px) {
-      width: 70%;
+      // width: 70%;
     }
   }
 
@@ -72,5 +70,39 @@ header {
     font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: 2px;
+  }
+}
+@media screen and (max-width:600px){
+  .header-main{
+    flex-direction: column;
+    padding: 16px 18px;
+    margin: 0;
+
+    &-heading{
+     font-size: 30px;
+     line-height: 36px;
+     font-weight: 600;
+     margin-bottom: 2rem;
+     letter-spacing: 0.01em;
+    }
+    & .pink{
+      display: block;
+    }
+    &__image{
+      margin-top: 24px;
+    }
+    .header-main__image img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  .header-footer{
+    div{
+      width: 85%;
+      font-weight: 600;
+      padding-block: .5em;
+      font-size: 10.6px;
+      line-height: 12px;
+    }
   }
 }

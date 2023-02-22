@@ -1,10 +1,15 @@
 .custButton {
   background-color: #540d6e;
-  padding: 1.5rem 4rem;
+  /* font-size: 20px; */
+  /* padding: 1em 2em; */
+  font-size: 16px;
+  padding: 8px 27px;
   color: #fff;
-  font-size: 1.5rem;
   border-radius: 5px;
   display: inline-block;
   cursor: pointer;
   border: 0;
+  font-family: "Matter",Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
 }/*# sourceMappingURL=CustomButton.css.map */

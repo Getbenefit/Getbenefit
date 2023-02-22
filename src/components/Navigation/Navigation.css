@@ -7,7 +7,8 @@ nav {
 }
 @media screen and (max-width: 650px) {
   nav {
-    padding: 1rem;
+    padding-inline: 16px;
+    margin-top: 18px;
   }
 }
 @media screen and (max-width: 650px) {
@@ -34,17 +35,16 @@ nav {
 .header-link {
   display: inline-block;
   cursor: pointer;
-  font-weight: 500;
-  font-size: 14px;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 .header-link:hover {
-  font-weight: 400;
-  font-size: 12px;
-  color: #EE4266;
+  text-decoration: underline;
 }
 
 .hamburger {
   display: none;
+  overflow: hidden;
 }
 @media screen and (max-width: 650px) {
   .hamburger {

@@ -34,25 +34,19 @@ const App = () => {
         <div className="section-text">
           <h2 className="purple">Get Benefit for Startup and Teams</h2>
           <p>
-          As an employer, you know how benefits helps retain top talents. While navigating the 
-          complex world of benefits can be a daunting task, Getbenefit empowers you to offer 
-          a comprehensive range of benefits to your employees, from health insurance to retirement
-          plans, simplifying the process and giving your team the edge they need to succeed.
+          Getbenefit offers startups and teams looking for cost-effective benefits a wide range of services to support the grouth and success of their teams
           </p>
           <CustomButton text="Get Benefit" />
         </div>
       </Section>
 
-      <Section className="w40">
+      <Section className="w40 flex-reverse">
         <div className="section-text">
           <h2 className="purple">
             Get Benefit for Remote Workers and Freelancers
           </h2>
           <p>
-          Being a freelancer or remote worker doesn't mean you have to go without benefits. 
-          Getbenefit provides access to the benefits you need, whether that's health insurance,
-           retirement plans, or something else. With getbenefit, navigating the 
-           complex world of benefits is a breeze.
+          From flexible co-working spaces to low-cost Internet Subscriptions. Getbenefit helps remote workers and tailored to their specific needs
           </p>
           <CustomButton text="Get Benefit" />
         </div>
@@ -132,13 +126,17 @@ const App = () => {
           <img src={Spend} alt="Thank" className="section-thank" />
         </div>
         <div className="thank">
-          "Whether you're an employer looking to offer competitive benefits or an independent worker 
+          {/* "Whether you're an employer looking to offer competitive benefits or an independent worker 
           looking to access them, Getbenefit simplifies the process, 
-          making it easy to find and manage the benefits you need to thrive."
+          making it easy to find and manage the benefits you need to thrive." */}
+          “Spend more time being productive, save more and get the most benefits out of life.”
         </div>
       </Section>
 
       <Section>
+        <div className="why-image">
+          <img src={ManReady} alt="Man relaxed" />
+        </div>
         <div className="why height">
           <h3 className="why-heading">Why Get Benefit?</h3>
           <ul className="why-links">
@@ -167,9 +165,9 @@ const App = () => {
             </li>
           </ul>
         </div>
-        <div className="why-image">
+        {/* <div className="why-image">
           <img src={ManReady} alt="Man relaxed" />
-        </div>
+        </div> */}
       </Section>
 
 
@@ -185,6 +183,7 @@ const App = () => {
             <CustomButton text="Contact Us" />
           </div>
         </div>
+        
         <div className="faq-faq">
           <Faq
             question="What Benefits does GetBenefit offers?"

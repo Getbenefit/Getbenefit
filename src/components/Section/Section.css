@@ -1,5 +1,5 @@
 .section {
-  padding: 4rem;
+  padding-inline: 16px ;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -98,9 +98,11 @@
 }
 
 .thank {
-  font-size: 3rem;
-  width: 50%;
-  letter-spacing: 5px;
+  font-family: "Matter";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 36px;
 }
 @media screen and (max-width: 750px) {
   .thank {
@@ -156,6 +158,7 @@
   margin-bottom: 3rem;
 }
 @media screen and (max-width: 500px) {
+
   .why-heading {
     width: 90%;
   }
@@ -179,12 +182,13 @@
   margin-bottom: 2rem;
 }
 .why-image {
+  margin-block-end: 3em;
   height: 100%;
   width: 50%;
 }
 
 .faq-sub {
-  width: 55%;
+  /* width: 55%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,13 +206,14 @@
   font-weight: 600;
 }
 .faq-heading {
-  font-size: 3rem;
+  font-size: 36px;
   font-weight: 500;
   margin-bottom: 2rem;
   width: 100%;
 }
 .faq-faq {
-  width: 45%;
+  /* width: 45%; */
+  width: 100%;
 }
 .faq-image {
   width: 70%;
@@ -232,8 +237,47 @@
   }
   .w40 div img {
     display: block;
-    width: 50%;
-    height: 50%;
+    /* width: 50%;
+    height: 50%; */
     margin: 0 auto;
   }
-}/*# sourceMappingURL=Section.css.map */
+}
+/*# sourceMappingURL=Section.css.map */
+/* My Changes */
+@media screen and (max-width:600px){
+  .w40{
+    margin-top: 48px;
+  }
+  .w40 div img{
+    width: 253px;
+    height: 274.28px;
+  }
+  .w40 .section-text{
+    margin-top: 38px;
+    padding-inline: 20px;
+    padding-block: 5px;
+  }
+  .w40 .section-text h2{
+    font-family: 'Matter',"Poppins",Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+  }
+  .w40 .section-text p{
+    /* font-family: 'Matter',"Poppins",Arial, Helvetica, sans-serif; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+    margin-top: -10px;
+    margin-bottom:31px;
+    width: 90%;
+  }
+  .flex-reverse{
+    flex-direction: column-reverse;
+    margin-bottom: 42px;
+  }
+}
