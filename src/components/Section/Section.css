@@ -110,6 +110,18 @@
     justify-content: space-evenly;
   }
 }
+@media screen and (max-width: 500px) {
+  .information {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .information :nth-child(odd) {
+    grid-column: 1/5;
+  }
+  .information :nth-child(even) {
+    grid-column: 5/9;
+  }
+}
 
 .no-flex {
   display: block;
@@ -225,4 +237,9 @@
   .shouldHide {
     display: none;
   }
+}
+
+.flex-reverse {
+  flex-direction: column-reverse;
+  margin-bottom: 42px;
 }/*# sourceMappingURL=Section.css.map */

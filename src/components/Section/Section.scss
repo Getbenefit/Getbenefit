@@ -114,6 +114,17 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  @media screen and (max-width: 500px) {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    :nth-child(odd) {
+      grid-column: 1/5;
+    }
+    :nth-child(even) {
+      grid-column: 5/9;
+    }
+  }
 }
 
 .no-flex {
@@ -243,4 +254,9 @@
   @media screen and (max-width: 750px) {
     display: none;
   }
+}
+
+.flex-reverse {
+  flex-direction: column-reverse;
+  margin-bottom: 42px;
 }
