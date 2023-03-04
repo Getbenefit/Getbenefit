@@ -42,6 +42,11 @@ nav {
     &:hover {
       text-decoration: underline;
     }
+
+    &_link {
+      color: inherit;
+      text-decoration: none;
+    }
   }
 }
 

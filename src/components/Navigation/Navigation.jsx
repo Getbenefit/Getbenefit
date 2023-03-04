@@ -11,10 +11,18 @@ const Navigation = () => {
         <Logo />
       </div>
       <ul className="header-links">
-        <li className="header-link purple">Home</li>
+        <li className="header-link purple">
+          <a href="/" className="header-link_link">
+            Home
+          </a>
+        </li>
         <li className="header-link purple">Offers</li>
         <li className="header-link purple">Why GetBenefits</li>
-        <li className="header-link purple">FAQs</li>
+        <li className="header-link purple">
+          <a href="/contact-us" className="header-link_link">
+            Contact Us
+          </a>
+        </li>
       </ul>
       <div>
         <CustomButton text="Get Benefits" />
