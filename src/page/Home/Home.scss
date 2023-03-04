@@ -1,0 +1,168 @@
+.thank {
+  font-size: 3rem;
+  width: 50%;
+  letter-spacing: 5px;
+
+  @media screen and (max-width: 750px) {
+    width: 100%;
+  }
+}
+
+.information {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (max-width: 500px) {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    :nth-child(odd) {
+      grid-column: 1/5;
+    }
+    :nth-child(even) {
+      grid-column: 5/9;
+    }
+  }
+}
+
+.no-flex {
+  display: block;
+}
+
+.why {
+  width: 50%;
+  height: 100%;
+  background-color: #8c36ac;
+  padding: 4rem 2rem;
+
+  &-heading {
+    width: 75%;
+    color: #8c36ac;
+    background-color: white;
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    border-radius: 20px 0 0 20px;
+    margin-bottom: 3rem;
+
+    @media screen and (max-width: 500px) {
+      width: 90%;
+    }
+  }
+
+  &-links {
+    list-style: none;
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+
+    svg {
+      width: 10%;
+      fill: white;
+      height: 4rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-image {
+    height: 100%;
+    width: 50%;
+  }
+}
+
+.faq {
+  &-sub {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      color: white;
+      background-color: #ff73cb;
+      font-weight: 600;
+    }
+  }
+
+  &-heading {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  &-faq {
+    width: 45%;
+  }
+
+  &-image {
+    width: 70%;
+  }
+}
+
+.gap {
+  gap: 5rem;
+}
+
+.height {
+  height: 55rem;
+}
+
+.w40 {
+  div {
+    width: 40%;
+
+    @media screen and (max-width: 750px) {
+      width: 100%;
+      gap: 2rem;
+
+      img {
+        display: block;
+        width: 65%;
+        height: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.shouldHide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+}
+
+.flex-reverse {
+  flex-direction: column-reverse;
+  margin-bottom: 42px;
+}
