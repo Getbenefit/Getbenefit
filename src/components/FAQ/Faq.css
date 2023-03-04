@@ -1,0 +1,50 @@
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #540d6e;
+  font-weight: 600;
+}
+.faq:not(:last-child) {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 550px) {
+  .faq-sub {
+    flex-direction: column;
+  }
+}
+.faq-sub svg {
+  display: block;
+  width: 10rem;
+  height: 3rem;
+}
+.faq-body {
+  margin-top: 3rem;
+}
+.faq-main {
+  width: 90%;
+}
+.faq-main div {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+@media screen and (max-width: 950px) {
+  .tablet {
+    flex-direction: column;
+    gap: 0;
+  }
+  .tablet div {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Faq.css.map */

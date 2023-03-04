@@ -1,0 +1,36 @@
+.swiper {
+  display: none;
+}
+.swiper-slide {
+  padding: 8rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide .tag {
+  width: 80%;
+}
+.swiper-slide .tag p {
+  font-size: 1.7rem;
+}
+@media screen and (max-width: 500px) {
+  .swiper-slide .tag {
+    width: 100%;
+  }
+}
+.swiper-slide:nth-child(1) .tag, .swiper-slide:nth-child(6) .tag {
+  background-color: #f0fffb;
+}
+.swiper-slide:nth-child(2) .tag, .swiper-slide:nth-child(4) .tag {
+  background-color: #fffef0;
+}
+.swiper-slide:nth-child(3) .tag, .swiper-slide:nth-child(5) .tag {
+  background-color: #fff0f4;
+}
+
+@media screen and (max-width: 750px) {
+  .swiper {
+    display: block;
+  }
+}/*# sourceMappingURL=Carousel.css.map */

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.purple {
+  color: #540d6e;
+}
+
+.pink {
+  color: #ee4266;
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  html {
+    font-size: 75%;
+  }
+}

@@ -1,0 +1,49 @@
+.swiper {
+  display: none;
+
+  &-slide {
+    padding: 8rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tag {
+      width: 80%;
+      p {
+        font-size: 1.7rem;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
+    }
+
+    &:nth-child(1),
+    &:nth-child(6) {
+      .tag {
+        background-color: #f0fffb;
+      }
+    }
+
+    &:nth-child(2),
+    &:nth-child(4) {
+      .tag {
+        background-color: #fffef0;
+      }
+    }
+
+    &:nth-child(3),
+    &:nth-child(5) {
+      .tag {
+        background-color: #fff0f4;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .swiper {
+    display: block;
+  }
+}
