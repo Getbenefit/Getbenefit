@@ -12,7 +12,7 @@ const Header = () => {
         <div className="header-main">
           <div className="header-main__text">
             <h1 className="header-heading">
-              <span className="purple">Bundled Benefit For The </span>
+              <span className="purple">Bundled Benefit <span>For The</span></span>
               <span className="pink">Modern WorkForce</span>
             </h1>
             <CustomButton text="Get Benefit" />

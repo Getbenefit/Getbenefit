@@ -18,7 +18,9 @@ const Carousel = (props) => {
       scrollbar={{ draggable: true }}
     >
       {props.children.map((el) => {
-        return <SwiperSlide>{el}</SwiperSlide>;
+        return (
+          <SwiperSlide key={el.props.heading.toLowerCase()}>{el}</SwiperSlide>
+        );
       })}
     </Swiper>
   );
