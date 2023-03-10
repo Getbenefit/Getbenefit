@@ -11,14 +11,13 @@
 .information {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 3rem;
 
   @media screen and (max-width: 900px) {
     width: 100%;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   @media screen and (max-width: 500px) {
@@ -133,11 +132,12 @@
 }
 
 .w40 {
+  gap: 3rem;
   div {
-    width: 40%;
+    width: 30%;
 
     @media screen and (max-width: 750px) {
-      width: 100%;
+      width: 100% !important;
       gap: 2rem;
 
       img {
