@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Social } from "../../assets/Groupthirty.svg";
+import Social from "../Social/social";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import "./Footer.css";
 

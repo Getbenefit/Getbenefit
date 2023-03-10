@@ -140,6 +140,11 @@
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 500px) {
+  .w40 div {
+    width: 50%;
+  }
+}
 
 .shouldHide {
   display: flex;
