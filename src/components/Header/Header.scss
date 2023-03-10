@@ -22,7 +22,7 @@ header {
   }
 
   &__text {
-    width: 50%;
+    width: 40% !important;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -55,12 +55,13 @@ header {
   font-weight: 500;
 
   div {
+    width: 40%;
     display: block;
     margin: 0 auto;
   }
 
   span {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: 2px;
   }
