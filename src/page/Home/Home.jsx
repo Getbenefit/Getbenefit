@@ -15,7 +15,7 @@ import Vacation from "../../assets/vacate.png";
 import Illust1 from "../../assets/Frame.svg";
 import Illust2 from "../../assets/Layer.svg";
 import Illust3 from "../../assets/Messaging.svg";
-import Illust4 from "../../assets/Groupfifty.svg";
+import Illust4 from "../../assets/illust.svg";
 import Info from "../../components/Info/Info";
 import { ReactComponent as Check } from "../../assets/check-box.svg";
 import ManReady from "../../assets/mansready.png";

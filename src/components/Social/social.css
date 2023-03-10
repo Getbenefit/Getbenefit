@@ -1,0 +1,10 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social svg {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}/*# sourceMappingURL=social.css.map */

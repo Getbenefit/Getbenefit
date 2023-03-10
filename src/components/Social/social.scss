@@ -1,0 +1,11 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  svg {
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+  }
+}
