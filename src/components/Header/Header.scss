@@ -22,7 +22,7 @@ header {
   }
 
   &__text {
-    width: 40% !important;
+    width: 43% !important;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -33,9 +33,15 @@ header {
     }
 
     .header-heading {
-      font-size: 4rem;
+      font-size: 4.5rem;
       margin-bottom: 2rem;
       text-transform: capitalize;
+
+      span{
+        span{
+          display: block;
+        }
+      }
     }
   }
 
