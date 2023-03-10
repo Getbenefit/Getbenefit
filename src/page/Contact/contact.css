@@ -34,7 +34,7 @@
   align-items: center;
 }
 .contacts-body_img {
-  width: 40%;
+  width: 50%;
   height: 70%;
   overflow-x: hidden;
 }
@@ -44,7 +44,7 @@
   }
 }
 .contacts-form {
-  width: 55%;
+  width: 40%;
 }
 @media screen and (max-width: 750px) {
   .contacts-form {
@@ -81,4 +81,11 @@
 }
 .form-row .field {
   width: 50%;
+}
+
+label {
+  color: #344054;
+}
+label span {
+  text-decoration: underline;
 }/*# sourceMappingURL=contact.css.map */
