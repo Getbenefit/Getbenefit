@@ -27,10 +27,11 @@
 @media screen and (max-width: 500px) {
   .info {
     height: 45rem;
+    width: 50% !important;
   }
 }
 @media screen and (max-width: 900px) {
   .info {
-    width: 40% !important;
+    width: 100% !important;
   }
 }/*# sourceMappingURL=Info.css.map */
